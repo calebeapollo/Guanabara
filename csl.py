@@ -20,3 +20,7 @@ elif n2 <= 4:
 else:
     print('OPÇÃO INVALIDA DE PAGAMENTO.')
 
+print('calebe')
+
+git add . && git commit -m "exercicios" && git push
+
