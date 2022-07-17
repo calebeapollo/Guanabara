@@ -7,12 +7,12 @@ print('''FORMAS DE PAGAMENTO
 n2=int(input('Sua opção: '))
 if n2 == 1 :
     print(f'Sua compra de R${n1:.2f} vai custar R${n1*0.9:.2f}')
-elif n2 <= 2:
+elif n2 == 2:
     print(f'Sua compra de R${n1:.2f} vai custar R${n1*0.95:.2f}')
 elif n2 == 3 :
     print(f'Sua compra será parcelada em 2x de R${n1/2}')
     print(f'Sua compra de R${n1} vai custar R${n1} no final ')
-elif n2 <= 4:
+elif n2 == 4:
     n3 = int(input('Quantas parcelas ? '))
     m = n1 * 0.2 + n1
     print(f'Sua compra será parcelada em {n3}x de R${m / n3:.0f} ')
